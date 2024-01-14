@@ -1,10 +1,7 @@
-import { useCounter } from './hooks/useCounter';
 import { DataGrid } from '@mui/x-data-grid';
 import './App.css';
 
 function App() {
-  const { count, increment } = useCounter();
-
   return (
     <div className="App">
       <DataGrid columns={columns} rows={rows} />
